@@ -1,0 +1,243 @@
+﻿/* CSS Document */
+@media ( min-width:801px ) and ( max-width:999px ) {
+html { font-size:52% }
+}
+
+/*屏幕小于等于800*/
+@media ( max-width:800px ) {
+	
+html { font-size:50% }
+
+.mo_fnone { float:none!important }
+
+.mo_paddingtop20 { padding-top: 20px }
+.mo_paddingright20 { padding-right: 20px }
+
+.mo_marginauto { margin-left:auto; margin-right:auto }
+.mo_undis { display:none }
+.mo_dis { display:block }
+.mo_tcenter { text-align:center }
+.mo_border-b1ABCBF1 { border-bottom:1px solid #ABCBF1; margin-bottom:2rem }
+.mo_gap20 { display:block; width:100%; height:2rem; line-height:2rem; font-size:1rem }
+.mo_gap30 { display:block; width:100%; height:3rem; line-height:3rem; font-size:1rem }
+
+.row { margin-right: 0; margin-left: 0 }
+
+.share, .share .bdsharebuttonbox { display:none }
+
+.fontSize50 { font-size:40px; font-size:4rem }
+.fontSize40 { font-size:34px; font-size:3.4rem }
+
+/*-------------------区块-------------------*/
+.area_50l, .area_50r, .area_90, .area_80, .area_70, .area_60, .area_50, .area_48, .area_45, .area_40, .area_30, .area_33l, .area_33r, .area_34c, .area_25, .area_25nm, .area_20, .area_67l, .area_79l, .area_inv_67l, .area_inv_33r, .area_33 { float:none; width:100%; padding-top:2rem; padding-left:0; padding-right:0 }
+
+.area_33l, .area_33r, .area_34c { height:auto }
+
+.area_67l, .area_67l .com-img img { height:30rem }
+.area_67l .width37, .area_67l .width63 { width:50% }
+
+.area_79l { height:30rem }
+.area_79l .com-img img { height:30rem }
+
+.mo_width39 { width: 39% }
+.mo_width59 { width: 59% }
+
+.innov-slideBox { height:22rem }
+.innov-slideBox .hd ul { bottom:-8rem }
+
+
+.main_img { height:16.6em;padding-top:6rem; }
+
+.margin_percent5 { margin-left:0; margin-right:0 }
+
+.com-rows_1 { height:auto; display:block; white-space:inherit; overflow:visible; text-overflow:inherit }
+
+/*-------------------通用头部-------------------*/ 
+
+.headbox, .headbox_nopos { width:100%; height:6rem; background:#EBEEF7 }
+.logo { width:12rem; height:auto; margin-top:1.5rem }
+.top_search { margin-top:1.2rem }
+.fa-globe { margin-top:1.2rem; margin-right:3rem }
+
+.language_dow { top: 6rem; right:-1.5rem }
+
+ 
+/*-------------------通用底部-------------------*/ 
+
+.foot-link{ text-align:center;width:100%;padding:1.3rem 0 0.8rem 0;height:auto;  }
+.foot-link li { display:inline-block !important; font-size:1.5rem;line-height:1.2em; margin:0 0.4rem !important;float:left;}
+
+.copyright { height:auto;clear:both;float:none; text-align:left; padding-top:5px; padding-bottom:10px }
+
+
+.foot-logobox { margin-top:0 !important }
+
+.slogan{ font-size: 1.6rem; line-height: 1.3em; width: 90%; text-align: center; margin: 0 auto; }
+
+
+
+/*-------------------首页css-------------------*/
+.in-w01, .in-jobbox { float:none; width:100% }
+
+.in-menu { height:21em }
+.in-menuli01, .in-menuli02, .in-menuli03 { float:none; display:block; height:3em; line-height:3em; width:100%; padding:0; border-left:0; border-bottom:1px solid #ccc }
+
+/*-------------------about css-------------------*/
+.about-main_img { background-repeat: no-repeat; background-position: center top; background-size: cover; }
+.about-slogan { padding-top:6rem; font-size:2rem;  }
+
+.about-txt01 { height: 11.5em; line-height: 1.5em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 8; -webkit-box-orient: vertical }
+/*
+.about-slogan p.fontSize50 { font-size:3rem }
+.about-slogan p.fontSize32 { font-size:2.1rem }
+*/
+.btn-leader-blue, a.btn-leader-blue, .btn-leader-ccc, a.btn-leader-ccc { color:#fff; padding:0.5rem 2rem }
+
+.dm-con .area_30 { margin-left:0; margin-right:0 }
+.dm-imgbox img { max-height:90% }
+
+/*-------------------innovation css-------------------*/
+.innov-main_img { background-size:cover }
+.innov-slogan { width:90%; padding-left:4%;padding-top:6rem; font-size:2rem;line-height:1.2em;  }
+.innov-slogan p.fontSize30 { font-size:2.4rem }
+
+/*-------------------news  css-------------------*/
+.news_main_img { background-size:cover; background-position: center center;}
+.news-slogan { width:90%; top:45% } 
+.news-slogan p.fontSize30 { font-size:2rem }
+
+.nl-box01 { width:310px }
+.nl-txtbox01 { width:90%; margin:0 5% }
+
+.nd-box01 { width:271px }
+.mo_nd-time { width:100%; text-align:center }
+
+/*-------------------product css-------------------*/   
+.pro_main_img{ background-repeat: no-repeat; background-position: left center; background-image: url(../images/product/pro-mainimg.jpg); background-size: auto 100% }  
+.pro-txt01 { height:auto }
+
+.mo_prol-tit { display:block; margin-top:1rem; margin-right:1rem }
+.mo_pml-tit { margin-top:-1rem; margin-bottom:-1rem; line-height:1em }
+
+/*-------------------health css-------------------*/ 
+.health_main_img { background-size: auto 100%; background-position: 40% 5rem; }    
+.health-slogan { width: 90%; top:45% }
+.b-linkbox { width:100%; margin:2rem 0 0 0 }
+.border_r_hfff, .border_r_h000 { border-right:0 }
+
+.hos-list { padding-top:2rem; padding-top:20px }
+.hos-list li { margin-bottom:2rem; margin-bottom:20px }
+.hos-txt { height:150px }
+
+.health-li01, .health-li02 { height: auto }
+.health-li02.border_l_h000 { border: 0 none }
+
+.bin-col { height: auto; padding-bottom: 2rem }
+
+/*-------------------investor css-------------------*/ 
+.investor-main_img { background-size: auto 100%; background-position: center center; }   
+.investor-slogan{width:90%; font-size:2rem; line-height:1.2em; top:45% }
+
+.notice-tap { width: 100%; margin-left: 1rem; margin-left: 10px\9 }
+.notice-tap li { float: left; padding-right: 2rem; padding-right: 20px\9; padding-top: 1.5rem }
+
+/*-------------------job css-------------------*/
+.job-main_img { background:url(../images/job/job-mainimg.jpg) center bottom no-repeat; background-size:auto 100% }  
+
+.train-slideBox, .train-slideBox .slideBox-con { height:auto }
+.train-slideBox .slideBox-con .area_50 { height:auto }
+.train-slideBox .slideBox-con { margin-top:2rem }
+.train-slideBox .slideBox-con01 { margin-top:1rem !important }
+
+.train-titbox { width:46.6rem }
+.train-tit { width:15rem } 
+.train-tit a { font-size: 1.8rem }
+
+.train-titbox { width: 100% }
+.train-tit { width: 31%; margin: 0 1.16% }
+
+.train-pic01, .train-txt01, .train-txt02, .train-txt03 { padding-top:3rem; padding-bottom:3rem }
+.train-txt01, .train-txt02, .train-txt03 { width:90% }
+.train-pic02 { height:30rem !important }
+
+
+.area_60 > .border-l1ddd{ border:0;padding-left:0%;}
+
+.form-row .form-button {margin: 0 auto;width: 100%;}
+.mapZoon{ margin: 0 auto;width: 90%;}
+
+.c_form_input{ margin: 0 auto;width: 90%;}
+
+.form-row .input-holder{ clear:both;width:100%;}
+
+.stock1,.stock2{ float:none;margin:1em 0;}
+
+.alliance{ width:100%;}
+
+.job-t02 { height: 30rem !important }
+
+/****************************************************************************/
+
+.inColumns1{ height: 30rem; float:left; width:100%;}
+.inColumns2{ height: 30rem; float:left; width:100%; margin-top:3rem; margin-bottom:5rem }
+
+
+/****************************************************************************/
+
+.honor-slideBox, .honor-slideBox .bd, .honor-slideBox .slideBox-con { height: 426px }
+.honor-slideBox .honor-slideimg, .honor-slideBox .honor-slidetxt { width:100%; height:50% }
+.honor-slideBox .honor-slideimg img { width:100%; height:auto }
+.honor-slideBox .honor-slidetxt { padding-left:0 } 
+
+.honor-slideBox .bd { width:80% }
+
+.staff-lifecon01 { height:78rem }
+.staff-lifetxt01 { height:35% }
+.staff-lifetxt02 { height:65% }
+
+.m_txtUl > li { width: 100%; float: none; margin-right: 0%; margin-bottom:3rem }
+.m_txtUl > li:nth-child(3) { width: 100%; margin-bottom:0 }
+.m_txtbox { height:auto }
+
+.col-xs-3 { width: 100%; }
+
+.ddel-con { width:90% }
+
+.listBlock .col-sm-2 img { width:100%; height:auto; margin:1rem 0 }
+
+.conBox { margin-left: 0; margin-bottom:0.5rem }
+
+.publicLi { width: 100% }
+.publicLiPic { width: 80% }
+.publicLiPic img { width:100%; height:auto }
+
+.about-con01 { position:absolute; left:35% }
+
+
+.train01-bg01, .train01-bg02 { height:26rem; position:relative }
+.train01-txt01 { height:auto; position:relative; float:none }
+
+
+.campus-2017, .campus-2017 .area_30 { height: auto }
+.campus-2017 .area_30 { background: none }
+.campus-2017 .area_30 img { display: block }
+
+.job-pop { width: 80%; height: 400px; position: absolute; top: 50%; margin-top: -200px; left: 10%; margin-left: 0 }
+.job-ewm-b { width: 60%; margin-top: 80px } 
+}
+
+@media ( min-width:801px ) and ( max-width:1024px ) {
+.about-con01 { position:absolute; right:-15% }
+}
+
+@media ( min-width:801px ) and ( max-width:1279px ) {
+
+.train-slideBox, .train-slideBox .slideBox-con { height:62rem }
+.train-txt01, .train-txt02, .train-txt03 { width:88% }
+
+.train-titbox { width: 55.6rem; }
+.train-tit { width: 18rem }
+
+.ddel-con { width:80% }
+
+}

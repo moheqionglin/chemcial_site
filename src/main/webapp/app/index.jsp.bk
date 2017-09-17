@@ -1,0 +1,213 @@
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html ng-app="Flower">
+<head>
+	<!-- 检测浏览器 -->
+	<title>XX医药</title>
+	<link rel="icon" type="image/png" href="/images/favicon.png"/>
+
+	<!-- build:appCss app/styles/all.css -->
+	<link href="../app/styles/main.css" rel="stylesheet" media="screen"/>
+	<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	<link href="../components/hiSlider/css/jquery.hiSlider.min.css" rel="stylesheet" media="screen"/>
+
+	<!-- endbuild -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<style>
+		body{
+			min-width: 400px;
+		}
+		.header-swiper {
+			margin: 0;
+			padding: 0;
+			position: relative;
+			overflow: hidden;
+			height: 600px;
+		}
+
+		.hiSlider-pages {
+			text-align: center;
+			left: 50%;
+			text-align: center;
+			bottom: 10px;
+		}
+
+		.hiSlider{
+			overflow: hidden;
+			background: #39B19E;
+			padding: 0;
+			margin: 0;
+			height: 500px !important;
+		}
+		.hiSlider .hiSlider-item {
+			float: left;
+			padding: 0;
+			height: 500px !important;
+		}
+
+		.hiSlider img {
+			margin: 0;
+			width: 100%;
+			height: 500px;
+		}
+
+		.hiSlider-left, .hiSlider-right{
+			overflow: hidden;
+			background: #39B19E;
+			padding: 0;
+			margin: 0;
+			height: 400px !important;
+		}
+		.hiSlider-left .hiSlider-item, .hiSlider-right .hiSlider-item {
+			float: left;
+			padding: 0;
+			height: 400px !important;
+		}
+
+		.hiSlider-left img, .hiSlider-right img {
+			margin: 0;
+			width: 100%;
+			height: 400px;
+		}
+		.headbox {
+			width: 100%;
+			height: 10rem;
+			position: absolute;
+			top: 0;
+			z-index: 100;
+		}
+		.base_width {
+			margin: auto;
+			height: 100%;
+		}
+		.width92 {
+			width: 92%;
+		}
+		.marginauto {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.cf {
+			zoom: 1;
+		}
+		.logo{
+			width: 15.5rem;
+			height: 3.6rem;
+			margin-top: 2.7rem;
+		}
+
+	</style>
+</head>
+<body class="index-page">
+	<header class="headbox  container-fluid">
+		<div class="base_width">
+			<div class="width92 marginauto cf">
+				<a href="/"><img src="/images/logo.png" class="logo fleft"></a>
+				<div class="positionRelative languageHot">
+					<a><i class="fa fa-globe fa-2_6x color555 fright marginleft10"></i></a>
+					<div class="language_dow dropdownBox" style="display: none;">
+						<i class="language_jt"></i>
+						<div class="language_bgfff">
+							<p class="language_a select"><a data-language="">中文简体</a></p>
+							<p class="language_a"><a data-language="/zh-tw">中文繁体</a></p>
+							<p class="language_a"><a data-language="/en">English</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="top_search fright cf topS1">
+					<div class="topSearch_txt " style="width: 0px; opacity: 0; display: none;">
+						<p class="fleft"><input type="text" class="ts-input01 ts-focus TopSearchInput "></p>
+						<a class="top_searchBt1 fleft">
+							<i class="fa fa-search fa-stack-1x fa-inverse"></i>
+						</a>
+					</div>
+					<span class="fa-stack fa-lg fright tsB top_find">
+				<i class="fa fa-circle fa-stack-2x color555"></i>
+				<i class="fa fa-search fa-stack-1x fa-inverse"></i>
+			</span>
+				</div>
+			</div>
+
+		</div>
+	</header>
+	<div class="header-swiper ">
+		<ul class="hiSlider">
+			<li class="hiSlider-item"><img src="/images/index/inkv1-bg.jpg"></li>
+			<li class="hiSlider-item"><img src="/images/index/inkv2-bg.jpg"></li>
+			<li class="hiSlider-item"><img src="/images/index/inkv3-bg.jpg"></li>
+			<li class="hiSlider-item"><img src="/images/index/inkv4-bg.jpg"></li>
+		</ul>
+	</div>
+
+	<div class="site-nav"></div>
+	<div class="middle-swiper-group container">
+		<div class="row">
+			<div class="col-sm-6 header-swiper">
+				<ul class="hiSlider-left">
+					<li class="hiSlider-item">
+						<img src="/images/index/inkv1-bg.jpg">
+					</li>
+					<li class="hiSlider-item"><img src="/images/index/inkv2-bg.jpg"></li>
+					<li class="hiSlider-item"><img src="/images/index/inkv3-bg.jpg"></li>
+					<li class="hiSlider-item"><img src="/images/index/inkv4-bg.jpg"></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 header-swiper">
+				<ul class="hiSlider-right">
+					<li class="hiSlider-item"><img src="/images/index/inkv1-bg.jpg"></li>
+					<li class="hiSlider-item"><img src="/images/index/inkv2-bg.jpg"></li>
+					<li class="hiSlider-item"><img src="/images/index/inkv3-bg.jpg"></li>
+					<li class="hiSlider-item"><img src="/images/index/inkv4-bg.jpg"></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../components/hiSlider/js/jquery.hiSlider.min.js"></script>
+	<script>
+
+		$(document).ready(function(){
+			topSwiper();
+			leftSwiper();
+			rightSwiper();
+//			topsearch(".topS1");//顶部搜索
+		});
+
+		//=====top swiper
+		function topSwiper(){
+			$('.hiSlider').hiSlider({
+				//是否全屏
+				isFullScreen: true,
+				//是否自适应
+				//			isFlexible: true,
+				isShowTitle: false,
+			});
+		}
+		function leftSwiper(){
+			$('.hiSlider-left').hiSlider({
+				//是否全屏
+				isFullScreen: false,
+				isShowControls:false,
+				//是否自适应
+				//			isFlexible: true,
+				isShowTitle: false,
+			});
+		}
+		function rightSwiper(){
+			$('.hiSlider-right').hiSlider({
+				//是否全屏
+				isFullScreen: false,
+				isShowControls:false,
+				//是否自适应
+				//			isFlexible: true,
+				isShowTitle: false,
+			});
+		}
+
+	</script>
+</body>
+</html>
