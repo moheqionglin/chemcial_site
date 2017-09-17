@@ -31,7 +31,7 @@
 	<script src="/js/jquery.easing.js"></script>
 
 	<!--手机端弹出菜单-->
-	<link href="/bower_components/jquery-fatNav/dist/jquery.fatNav.min.css" rel="stylesheet" type="text/css">
+	<link href="/components/fatnav/jquery.fatNav.min.css" rel="stylesheet" type="text/css">
 	<!-- 自适应横向轮播图 -->
 	<link href="/components/carousel/owl.carousel.css" rel="stylesheet">
 	<script type="text/javascript">
@@ -1142,10 +1142,7 @@
 
 </script>
 <!--手机端弹出菜单-->
-<script language="javascript" type="text/javascript" src="/bower_components/jquery-fatNav/dist/jquery.fatNav.min.js"></script>
-<a href="javascript:void(0)" class="hamburger">
-	<div class="hamburger_icon"></div>
-</a>
+<script language="javascript" type="text/javascript" src="/components/fatnav/jquery.fatNav.min.js"></script>
 <!-- 自适应横向轮播图 -->
 <script src="/components/carousel/owl.carousel.js"></script>
 <script src="/components/hiSlider/js/jquery.hiSlider.min.js"></script>

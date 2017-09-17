@@ -1,0 +1,25 @@
+@media (max-width: 800px) {
+
+.fat-nav, .hamburger_icon, .hamburger_icon:after, .hamburger_icon:before { -moz-transition-duration: .4s; -o-transition-duration: .4s; -webkit-transition-duration: .4s }
+
+.hamburger { display: block; width: 4em; height: 4em; position:absolute; top: 0.4rem; right: 0; z-index: 9001; padding: 12px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-tap-highlight-color: transparent; -ms-touch-action: manipulation; touch-action: manipulation }
+.hamburger_icon { position: relative; margin-top: 7px; margin-bottom: 7px }
+.hamburger_icon, .hamburger_icon:after, .hamburger_icon:before { display: block; width: 2em; height: 2px; background-color: #555; -moz-transition-property: background-color, -moz-transform; -o-transition-property: background-color, -o-transform; -webkit-transition-property: background-color, -webkit-transform; transition-property: background-color, transform; transition-duration: .4s }
+.hamburger_icon:after, .hamburger_icon:before { position: absolute; content: "" }
+.hamburger_icon:before { top: -7px }
+.hamburger_icon:after { top: 7px }
+.hamburger.active .hamburger_icon { background-color: transparent }
+.hamburger.active .hamburger_icon:after, .hamburger.active .hamburger_icon:before { background-color: #555 }
+.hamburger.active .hamburger_icon:before { -moz-transform: translateY(7px)rotate(45deg); -ms-transform: translateY(7px)rotate(45deg); -webkit-transform: translateY(7px)rotate(45deg); transform: translateY(7px)rotate(45deg) }
+.hamburger.active .hamburger_icon:after { -moz-transform: translateY(-7px)rotate(-45deg); -ms-transform: translateY(-7px)rotate(-45deg); -webkit-transform: translateY(-7px)rotate(-45deg); transform: translateY(-7px)rotate(-45deg) }
+
+.fat-nav { top: 0; left: 0; z-index: 9000; position: fixed; display: none; width: 100%; height: 100%; background: rgba(255,255,255,1); -moz-transform: scale(1.4); -ms-transform: scale(1.4); -webkit-transform: scale(1.4); transform: scale(1.4); -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; -webkit-transition-property: -webkit-transform; transition-property: transform; transition-duration: .4s; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch }
+.fat-nav_wrapper { width: 100%; height: 100%; display: table; table-layout: fixed }
+.fat-nav.active { -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); transform: scale(1) }
+
+.mo_nav { display:block; width:90%; margin-top:8em; margin-left:5%; margin-right:5%; padding: 0 }
+.mo_nav li { list-style-type: none; font-size: 2rem; height:2.5em; line-height:2.5em; width:100%; margin-bottom:0.1rem; background:#f3f5f9 }
+.mo_nav li a { display:block; width:97%; padding-left:3%; height:100%; text-decoration: none }
+.mo_nav li a .fa-angle-right { margin-top:1.2rem; margin-right:1rem }
+
+}
