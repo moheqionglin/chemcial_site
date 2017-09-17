@@ -261,14 +261,8 @@
 											<a href="/">制药产品</a>
 											<div class="cf">
 												<div class="links_section">
-													<a href="/">·代谢及消化系统</a>
-													<a href="/">·心血管系统</a>
-													<a href="/">·血液系统</a>
-													<a href="/">·中枢神经系统药物</a>
-													<a href="/">·抗感染</a>
-													<a href="/">·抗肿瘤</a>
-													<a href="/">·疫苗</a>
-													<a href="/">·原料药及中间体</a>
+													<a href="/">·XX系统</a>
+													<a href="/">·XX系统</a>
 												</div>
 											</div>
 										</li>
@@ -319,7 +313,6 @@
 											<a href="/">领导团队</a>
 											<div class="links_section">
 												<a href="/">·董事会</a>
-												<a href="/">·监事会</a>
 												<a href="/">·高管</a>
 											</div>
 										</li>
@@ -340,20 +333,19 @@
 								<li class="menuDown_li mLi6 cf" style="display: none;">
 									<ul class="menuDown_links">
 										<li class="menuDown_linksFist"><a href="/">最新资讯</a></li>
-										<li><a href="/">集团新闻</a></li>
-										<li><a href="/">媒体报道</a></li>
-										<li><a href="/">媒体垂询</a></li>
+										<li style="font-size: 1px;"><a href="/">.</a></li>
+										<li style="font-size: 1px;"><a href="/">.</a></li>
 									</ul>
-									<ul class="menuDown_links">
-										<li class="cf">
-											<a href="/">多媒体专区</a>
-											<div class="links_section">
-												<a href="/">·期刊</a>
-												<a href="/">·视频</a>
-												<a href="/">·文件下载</a>
-											</div>
-										</li>
-									</ul>
+									<%--<ul class="menuDown_links">--%>
+										<%--<li class="cf">--%>
+											<%--<a href="/">多媒体专区</a>--%>
+											<%--<div class="links_section">--%>
+												<%--<a href="/">·期刊</a>--%>
+												<%--<a href="/">·视频</a>--%>
+												<%--<a href="/">·文件下载</a>--%>
+											<%--</div>--%>
+										<%--</li>--%>
+									<%--</ul>--%>
 									<ul class="menuDown_pic ">
 										<li class="menuDown_picli">
 											<a href="/">
@@ -376,7 +368,6 @@
 											<a href="/">培训与发展</a>
 											<div class="links_section">
 												<a href="/">·人才培育体系</a>
-												<a href="/">·管理培训生项目</a>
 												<a href="/">·人才发展与激励</a>
 											</div>
 										</li>
@@ -405,15 +396,10 @@
 								</li>
 								<li class="menuDown_li mLi5 cf" style="display: none;">
 									<ul class="menuDown_links">
-										<li class="menuDown_linksFist"><a href="/">公告及通函</a></li>
+										<li class="menuDown_linksFist"><a href="/">投资者关系</a></li>
 										<li><a href="/">公司治理</a></li>
 										<li><a href="/">公司推介</a></li>
 										<li><a href="/">财务报告</a></li>
-									</ul>
-									<ul class="menuDown_links">
-										<li class="menuDown_linksFist"><a href="/">股票信息</a></li>
-										<li><a href="/">常见问题</a></li>
-										<li><a href="/">投资者联络</a></li>
 									</ul>
 									<ul class="menuDown_pic ">
 										<li class="menuDown_picli">
@@ -482,7 +468,7 @@
 	<!--主体内容开始-->
 	<section class="width100  paddingbottom40 bgfff">
 		<div class="width92 marginauto cf">
-			<p class="fontSize30 line-height1_2em paddingtop30">探索复星医药</p>
+			<p class="fontSize30 line-height1_2em paddingtop30">探索XX医药</p>
 			<!--滚动内容区域-->
 			<div class="cf">
 				<div class="area_50l in-hiSlider01">
@@ -492,11 +478,11 @@
 								<div class="width50 fleft">
 									<div class="width80 marginauto colorfff">
 										<p class="com-tit bg000_0_2">热点新闻</p>
-										<p class="fontSize20 com-rows_3 margintop15">复星医药：研发及国际化点亮业绩 ，上半年营收同比增长20.41%</p>
+										<p class="fontSize20 com-rows_3 margintop15">XX医药：研发及国际化点亮业绩 ，上半年营收同比增长20.41%</p>
 										<p class="fontSize12 margintop15 com-rows_3s">
 											&nbsp;
-											2017年8月30日，中国领先的医疗健康产业集团复星医药 (股票代码：600196.SH，02196.HK) 公布2017年中期业绩。
-											报告期内，复星医药集团实现营业收入人民币83...</p>
+											2017年8月30日，中国领先的医疗健康产业集团XX医药 (股票代码：600196.SH，02196.HK) 公布2017年中期业绩。
+											报告期内，XX医药集团实现营业收入人民币83...</p>
 									</div>
 								</div>
 								<a href="/" class="com-a12 positionAbsolute left_p5 bottom10">了解详情<i class="fa fa-long-arrow-right"></i></a>
@@ -510,10 +496,10 @@
 								<div class="width50 fleft">
 									<div class="width80 marginauto colorfff">
 										<p class="com-tit bg000_0_2">热点新闻</p>
-										<p class="fontSize20 com-rows_3 margintop15">2016年复星医药扣非净利同比增长26.36% 持续加大创新研发投入 强化医疗服务布局</p>
+										<p class="fontSize20 com-rows_3 margintop15">2016年XX医药扣非净利同比增长26.36% 持续加大创新研发投入 强化医疗服务布局</p>
 										<p class="fontSize12 margintop15 com-rows_3s">
-											2017年3月29日，复星医药 (股票代码：600196.SH，02196.HK) 披露2016年业绩。
-											2016年，复星医药集团坚持产品创新和管理提升、国际化发展，主营业务继续保持均衡增长。2016年度，复星医药集团实...</p>
+											2017年3月29日，XX医药 (股票代码：600196.SH，02196.HK) 披露2016年业绩。
+											2016年，XX医药集团坚持产品创新和管理提升、国际化发展，主营业务继续保持均衡增长。2016年度，XX医药集团实...</p>
 									</div>
 								</div>
 								<a href="/" class="com-a12 positionAbsolute left_p5 bottom10">了解详情<i class="fa fa-long-arrow-right"></i></a>
@@ -527,9 +513,9 @@
 								<div class="width50 fleft">
 									<div class="width80 marginauto colorfff">
 										<p class="com-tit bg000_0_2">热点新闻</p>
-										<p class="fontSize20 com-rows_3 margintop15">中瑞商业合作又一“里程碑” 复星医药收购欧洲呼吸机器械领先品牌Breas</p>
+										<p class="fontSize20 com-rows_3 margintop15">中瑞商业合作又一“里程碑” XX医药收购欧洲呼吸机器械领先品牌Breas</p>
 										<p class="fontSize12 margintop15 com-rows_3s">
-											（2017年3月22日，上海）近日，复星医药收购欧洲呼吸机器械领先品牌Breas的交割仪式在Breas总部所在地瑞典城市哥德堡举行，来自复星医药和Breas公司（以下简称“Breas”）前股东PBM Capital的高级管理人员、哥德...</p>
+											（2017年3月22日，上海）近日，XX医药收购欧洲呼吸机器械领先品牌Breas的交割仪式在Breas总部所在地瑞典城市哥德堡举行，来自XX医药和Breas公司（以下简称“Breas”）前股东PBM Capital的高级管理人员、哥德...</p>
 									</div>
 								</div>
 								<a href="/" class="com-a12 positionAbsolute left_p5 bottom10">了解详情<i class="fa fa-long-arrow-right"></i></a>
@@ -544,9 +530,9 @@
 								<div class="width50 fleft">
 									<div class="width80 marginauto colorfff">
 										<p class="com-tit bg000_0_2">热点新闻</p>
-										<p class="fontSize20 com-rows_3 margintop15">复星医药与Kite Pharma在华成立中外合营企业 引进全球领先癌症治疗技术和重磅产品</p>
+										<p class="fontSize20 com-rows_3 margintop15">XX医药与Kite Pharma在华成立中外合营企业 引进全球领先癌症治疗技术和重磅产品</p>
 										<p class="fontSize12 margintop15 com-rows_3s">
-											2017年1月11日 — 上海复星医药（集团）股份有限公司（以下简称复星医药，股票代码600196.SH，02196.HK）宣布，通过旗下全资子公司成立中外合营企业，拟在中国（根据本次合作约定，包括中国大陆、香港及澳门，但不包括台湾；...</p>
+											2017年1月11日 — 上海XX医药（集团）股份有限公司（以下简称XX医药，股票代码600196.SH，02196.HK）宣布，通过旗下全资子公司成立中外合营企业，拟在中国（根据本次合作约定，包括中国大陆、香港及澳门，但不包括台湾；...</p>
 									</div>
 								</div>
 								<a href="/" class="com-a12 positionAbsolute left_p5 bottom10">了解详情<i class="fa fa-long-arrow-right"></i></a>
@@ -566,7 +552,7 @@
 									<div class="width80 marginauto colorfff">
 										<a href="/" >
 											<p class="com-tit bg000_0_2">创新研发</p>
-											<p class="fontSize20 com-rows_5 margintop15">复星医药始终将自主创新作为企业发展的源动力，持续完善仿创结合的药品研发体系。</p>
+											<p class="fontSize20 com-rows_5 margintop15">XX医药始终将自主创新作为企业发展的源动力，持续完善仿创结合的药品研发体系。</p>
 										</a>
 									</div>
 								</div>
@@ -634,7 +620,7 @@
 									<div class="width80 marginauto colorfff">
 										<a href="/">
 											<p class="com-tit bg000_0_2">社会责任</p>
-											<p class="fontSize20 com-rows_5 margintop15">复星医药的社会责任使更多的民众能获得安全、便利、优质的产品和服务</p>
+											<p class="fontSize20 com-rows_5 margintop15">XX医药的社会责任使更多的民众能获得安全、便利、优质的产品和服务</p>
 										</a>
 									</div>
 								</div>
@@ -651,7 +637,7 @@
 									<div class="width80 marginauto colorfff">
 										<a href="/" >
 											<p class="com-tit bg000_0_2">投资者服务</p>
-											<p class="fontSize20 com-rows_5 margintop15">复星医药未来三年（2015-2017 年）股东分红回报规划</p>
+											<p class="fontSize20 com-rows_5 margintop15">XX医药未来三年（2015-2017 年）股东分红回报规划</p>
 										</a>
 									</div>
 								</div>
@@ -701,8 +687,8 @@
 			</div>
 
 			<div class=" inColumns2 mo_border-b1ABCBF1">
-				<p class="fontSize30 line-height1_2em">复星医药股票</p>
-				<p class="fontSize14 line-height1_2em">复星医药A+H股两地上市公司</p>
+				<p class="fontSize30 line-height1_2em">XX医药股票</p>
+				<p class="fontSize14 line-height1_2em">XX医药A+H股两地上市公司</p>
 				<div class="margintop20 cf">
 					<div class="width45 fleft stockdate1 inStockBlock s1">
 						<p class="paddingleft5 line-height2em paddingbottom5">SH 600196</p>
@@ -734,7 +720,7 @@
 					<div class="in-job marginauto">
 						<p class="paddingtop60"><span class="fontSize50 nufontfamily" id="jobsCount">10</span><br> 招聘职位</p>
 					</div>
-					<p class="inColumns_ba tcenter"><a href="/" class="com-a14 line-height2_5em">加入复星医药 <i class="fa fa-long-arrow-right"></i></a></p>
+					<p class="inColumns_ba tcenter"><a href="/" class="com-a14 line-height2_5em">加入XX医药 <i class="fa fa-long-arrow-right"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -747,7 +733,7 @@
 						<img src="/images/logo.png" class="dis marginauto" style="max-width:60%">
 					</div>
 					<div class="area_70">
-						<p class="slogan ">复星医药以“持续创新 乐享健康”为品牌理念<br>致力于成为全球主流医疗健康市场的一流企业</p>
+						<p class="slogan ">XX医药以“持续创新 乐享健康”为品牌理念<br>致力于成为全球主流医疗健康市场的一流企业</p>
 					</div>
 				</div>
 				<div class="area_30">
@@ -1055,9 +1041,6 @@
 				<div class="paddingtop10 line-height1_8em">
 					<p><a href="/">最新资讯</a></p>
 					<p><a href="/">集团新闻</a></p>
-					<p><a href="/">媒体报道</a></p>
-					<p><a href="/">多媒体专区</a></p>
-					<p><a href="/">媒体垂询</a></p>
 				</div>
 			</li>
 			<li class="in-menuli03">
@@ -1076,9 +1059,6 @@
 					<p><a href="/">公司治理</a></p>
 					<p><a href="/">公司推介</a></p>
 					<p><a href="/">财务报告</a></p>
-					<p><a href="/">股票信息</a></p>
-					<p><a href="/">常见问题</a></p>
-					<p><a href="/">投资者联络</a></p>
 				</div>
 			</li>
 		</ul>
